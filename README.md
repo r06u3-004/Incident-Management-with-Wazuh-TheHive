@@ -1,4 +1,4 @@
-# Incident-Management-with-Wazuh-TheHive
+# Incident-Management
 
 
 ## 📌 Overview
