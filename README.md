@@ -48,14 +48,6 @@ All services communicate via the Docker network **`SOC_NET`**.
 - Minimum 8 GB RAM recommended  
 - Open ports for SOC services  
 
-### Quick Start
-```bash
-# Clone the repository
-
-# Launch the SOC stack
-docker-compose up -d
-
-
 # ⚠️ Configuration Notes
 
 Some configuration files (e.g. `application.conf`, `cassandra.yaml`, `elasticsearch.yml`) must be customized before deployment.  
@@ -98,3 +90,10 @@ It is ideal for **training, testing, and research** in cybersecurity.
 - [Cortex](https://github.com/TheHive-Project/Cortex)  
 - [MISP](https://www.misp-project.org/)  
 - [Shuffle](https://shuffler.io/)  
+
+### Quick Start
+```bash
+# Clone the repository
+
+# Launch the SOC stack
+docker-compose up -d
