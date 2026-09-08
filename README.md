@@ -51,8 +51,6 @@ All services communicate via the Docker network **`SOC_NET`**.
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/<your-repo>/incident-management-soc.git
-cd incident-management-soc
 
 # Launch the SOC stack
 docker-compose up -d
