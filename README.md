@@ -54,3 +54,47 @@ All services communicate via the Docker network **`SOC_NET`**.
 
 # Launch the SOC stack
 docker-compose up -d
+
+
+# ⚠️ Configuration Notes
+
+Some configuration files (e.g. `application.conf`, `cassandra.yaml`, `elasticsearch.yml`) must be customized before deployment.  
+Sensitive commands and credentials are masked for security reasons.
+
+---
+
+## 🌐 Access Points
+
+| Service       | Port |
+|---------------|------|
+| TheHive       | 9000 |
+| Cortex        | 9001 |
+| MinIO         | 9002 |
+| Elasticsearch | 9200 |
+| OpenSearch    | 9201 |
+| MISP HTTP     | 8080 |
+| MISP HTTPS    | 8443 |
+| Cassandra     | 9042 |
+
+---
+
+## 🛡️ Use Case
+
+This lab demonstrates how to build a **SOC environment** for:
+
+- Incident detection & response  
+- Threat intelligence integration  
+- Automated analysis of observables  
+- Workflow orchestration for security operations  
+
+It is ideal for **training, testing, and research** in cybersecurity.
+
+---
+
+## 📚 Documentation
+
+- [TheHive Project](https://thehive-project.org/)  
+- [Wazuh Documentation](https://documentation.wazuh.com/)  
+- [Cortex](https://github.com/TheHive-Project/Cortex)  
+- [MISP](https://www.misp-project.org/)  
+- [Shuffle](https://shuffler.io/)  
